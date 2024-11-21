@@ -1,9 +1,7 @@
 # CFD-FlowSolver
 
 ### A Finite Element Method Solver for 2D Incompressible Flows
-
----
-
+![image](https://github.com/user-attachments/assets/7e1937c5-010b-4481-9f60-bb74653cb3c9)
 ## Overview
 `FEM-FlowSolver` is a lightweight, educational implementation of a 2D Finite Element Method (FEM) solver for incompressible fluid flow problems. It solves the steady-state Navier-Stokes equations using a stabilized FEM formulation, making it suitable for low Reynolds number flows.
 
@@ -98,4 +96,4 @@ cmake ..
 make
 ```
 
-4. Run solver
+3. Run solver and feed the solution.vtk file into ParaView or similar.
