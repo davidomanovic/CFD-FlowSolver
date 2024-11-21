@@ -31,3 +31,30 @@ This solver can simulate classic CFD benchmark problems like the 2D lid-driven c
 ---
 
 ## Project Structure
+
+
+
+---
+
+## Getting Started
+
+### Prerequisites
+- **C++ Compiler**: GCC or Clang (C++17 or later).
+- **CMake**: For building the project.
+- **VTK**: Optional, for visualizing results.
+
+### Installation
+1. Clone the repository:
+```bash
+git clone https://github.com/username/FEM-FlowSolver.git
+cd FEM-FlowSolver
+```
+2. Build project:
+```bash
+mkdir build
+cd build
+cmake ..
+make
+```
+
+4. Run solver
