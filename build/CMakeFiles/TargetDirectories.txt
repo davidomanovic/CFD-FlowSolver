@@ -1,0 +1,3 @@
+C:/GitHub/CFD-FlowSolver/build/CMakeFiles/FEMSolver.dir
+C:/GitHub/CFD-FlowSolver/build/CMakeFiles/ALL_BUILD.dir
+C:/GitHub/CFD-FlowSolver/build/CMakeFiles/ZERO_CHECK.dir
