@@ -13,6 +13,17 @@ set(SOURCES
     src/main.cpp
     src/Matrix.cpp
     src/Vector.cpp
+    src/Element.cpp
+    src/BoundaryConditions.cpp
+    src/Mesh.cpp
+    src/MeshGenerator.cpp
+    src/Node.cpp
+    src/PostProcessor.cpp
+    src/Solver.cpp
+    src/Utils.cpp
+    src/ShapeFunctions.cpp
+    src/LocalStiffness.cpp
+    src/VTKWriter.cpp
 )
 
 # Set the output directories

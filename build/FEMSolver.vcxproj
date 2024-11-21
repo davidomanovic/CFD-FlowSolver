@@ -59,25 +59,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\GitHub\CFD-FlowSolver\build\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\GitHub\CFD-FlowSolver\bin\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">FEMSolver.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">FEMSolver</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\GitHub\CFD-FlowSolver\build\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\GitHub\CFD-FlowSolver\bin\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">FEMSolver.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">FEMSolver</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\GitHub\CFD-FlowSolver\build\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\GitHub\CFD-FlowSolver\bin\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">FEMSolver.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">FEMSolver</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\GitHub\CFD-FlowSolver\build\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\GitHub\CFD-FlowSolver\bin\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">FEMSolver.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">FEMSolver</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
@@ -123,8 +123,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/GitHub/CFD-FlowSolver/build/Debug/FEMSolver.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/GitHub/CFD-FlowSolver/build/Debug/FEMSolver.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/GitHub/CFD-FlowSolver/bin/Debug/FEMSolver.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/GitHub/CFD-FlowSolver/bin/Debug/FEMSolver.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -171,8 +171,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/GitHub/CFD-FlowSolver/build/Release/FEMSolver.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/GitHub/CFD-FlowSolver/build/Release/FEMSolver.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/GitHub/CFD-FlowSolver/bin/Release/FEMSolver.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/GitHub/CFD-FlowSolver/bin/Release/FEMSolver.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -219,8 +219,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/GitHub/CFD-FlowSolver/build/MinSizeRel/FEMSolver.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/GitHub/CFD-FlowSolver/build/MinSizeRel/FEMSolver.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/GitHub/CFD-FlowSolver/bin/MinSizeRel/FEMSolver.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/GitHub/CFD-FlowSolver/bin/MinSizeRel/FEMSolver.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -266,8 +266,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/GitHub/CFD-FlowSolver/build/RelWithDebInfo/FEMSolver.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/GitHub/CFD-FlowSolver/build/RelWithDebInfo/FEMSolver.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/GitHub/CFD-FlowSolver/bin/RelWithDebInfo/FEMSolver.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/GitHub/CFD-FlowSolver/bin/RelWithDebInfo/FEMSolver.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -335,6 +335,14 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="C:\GitHub\CFD-FlowSolver\src\main.cpp" />
     <ClCompile Include="C:\GitHub\CFD-FlowSolver\src\Matrix.cpp" />
     <ClCompile Include="C:\GitHub\CFD-FlowSolver\src\Vector.cpp" />
+    <ClCompile Include="C:\GitHub\CFD-FlowSolver\src\Element.cpp" />
+    <ClCompile Include="C:\GitHub\CFD-FlowSolver\src\BoundaryConditions.cpp" />
+    <ClCompile Include="C:\GitHub\CFD-FlowSolver\src\Mesh.cpp" />
+    <ClCompile Include="C:\GitHub\CFD-FlowSolver\src\MeshGenerator.cpp" />
+    <ClCompile Include="C:\GitHub\CFD-FlowSolver\src\Node.cpp" />
+    <ClCompile Include="C:\GitHub\CFD-FlowSolver\src\PostProcessor.cpp" />
+    <ClCompile Include="C:\GitHub\CFD-FlowSolver\src\Solver.cpp" />
+    <ClCompile Include="C:\GitHub\CFD-FlowSolver\src\Utils.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:\GitHub\CFD-FlowSolver\build\ZERO_CHECK.vcxproj">
