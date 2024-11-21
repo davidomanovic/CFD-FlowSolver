@@ -25,6 +25,47 @@ The project demonstrates key concepts of FEM:
 
 ---
 
+### Project Structure
+ ```graphql
+FEM-FlowSolver/
+├── src/
+│   ├── main.cpp                 # Entry point of the application
+│   ├── MeshGenerator.cpp        # Module for creating and managing finite element meshes
+│   ├── Element.cpp              # Class representing a single finite element
+│   ├── Solver.cpp               # Core FEM solver for assembling and solving equations
+│   ├── PostProcessor.cpp        # Handles visualization and output
+│   ├── Utils.cpp                # General utility functions
+│   └── BoundaryConditions.cpp   # Functions for applying boundary conditions
+│
+├── include/
+│   ├── MeshGenerator.h          # Header for MeshGenerator
+│   ├── Element.h                # Header for Element class
+│   ├── Solver.h                 # Header for Solver class
+│   ├── PostProcessor.h          # Header for PostProcessor
+│   ├── Utils.h                  # Header for utility functions
+│   └── BoundaryConditions.h     # Header for boundary conditions
+│
+├── data/
+│   ├── sample_mesh.vtk          # Example mesh for testing
+│   ├── boundary_conditions.txt  # Example boundary conditions file
+│   └── material_properties.txt  # Material properties for the fluid
+│
+├── tests/
+│   ├── test_solver.cpp          # Unit tests for the FEM solver
+│   ├── test_mesh.cpp            # Unit tests for the mesh generator
+│   └── test_utils.cpp           # Unit tests for utility functions
+│
+├── results/
+│   └── velocity_field.vtk       # Sample output (VTK format)
+│
+├── CMakeLists.txt               # Build system configuration
+├── README.md                    # Documentation
+└── LICENSE                      # Licensing information
+
+```
+
+
+
 ## Example Use Case: Lid-Driven Cavity Flow
 This solver can simulate classic CFD benchmark problems like the 2D lid-driven cavity flow. A square domain is discretized into triangular elements, and the top boundary is assigned a velocity while others are stationary.
 
